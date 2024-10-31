@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1550px;
+    width: 100%;
+
+}
+
+.app {
+    margin-top: 223px;
+}
+
+body {
+    background: var(--Dark-Blue, #202733);
+    font-family: "Manrope";
+}
+
+.card-text {
+    color: var(--Neon-Green, #53FFAA);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    font-size: 13px;
+    padding-top: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+    letter-spacing: 4.086px;
+
+
+}
+
+.card {
+    border-radius: 15px;
+    background: var(--Dark-Grayish-Blue, #313A48);
+    box-shadow: 30px 50px 80px 0px rgba(0, 0, 0, 0.10);
+    width: 540px;
+    height: 332px;
+    flex-shrink: 0;
+}
+
+.card-p {
+    color: var(--Light-Cyan, #CEE3E9);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    width: 444px;
+}
+
+.hr {
+    width: 196px;
+    height: 1px;
+    opacity: 2px;
+    flex-shrink: 0;
+    background: var(--Grayish-Blue, #4F5D74);
+    margin-top: 49px;
+
+
+}
+
+.hr-line {
+    display: flex;
+
+}
+
+.img {
+    margin-top: 40px;
+}
+
+.btn {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 64px;
+    background: var(--Neon-Green, #53FFAA);
+    border: none;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn:active {
+box-shadow:5px 5px 39px 5px  #1ea05f;
+margin-top: 20px;
+}
